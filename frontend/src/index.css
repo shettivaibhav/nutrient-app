@@ -1,0 +1,12 @@
+/* index.css */
+body {
+  background-color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* (optional small tweaks allowed) */
+h1, h2, h3 {
+  font-weight: 600;
+}
