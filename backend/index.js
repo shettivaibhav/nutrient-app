@@ -29,10 +29,6 @@ mongoose
 .then(() => console.log("✅ MongoDB Connected Successfully"))
 .catch((err) => console.error("❌ MongoDB Connection Error:", err));
 
-// ✅ Test Route (for checking server status)
-// app.get("/", (req, res) => {
-//   res.send("🚀 Nutrient App Backend is Running");
-// });
 
 //✅ Signup Route
 app.use("/api/signup", signupRoute)
